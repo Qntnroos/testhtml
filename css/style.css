@@ -8,6 +8,7 @@
 .active,.nav-link:hover{
     background-color : #fff !important;
     color: #323031 !important;
+    border-radius: 0.3rem;
 }
 .nav-link{
     transition: 0.5s ease-in-out;
@@ -19,6 +20,9 @@
 }
 .card-body,.card-title,.card-text{
     background-color: #fff;
+}
+.btn{
+    transition: 0.5s ease-in-out;
 }
 @media screen and (max-width: 1000px) {
     .nav-item.active,.nav-link:hover{
